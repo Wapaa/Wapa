@@ -12,10 +12,10 @@
         <title>Wafaa DHMINE | Web Developer</title>
     </head>
 <body>
-  
+  <div id="particles-js">
     <!-- Navbar -->
 
-    <nav>
+    <nav >
         <h1>Oumou El Mouminine DHMINE</h1>
         <ul class="navigation">
             <li><a href="#about" class="nav-link">About</a></li>
@@ -34,7 +34,7 @@
         </button>
 
     </nav>
-    <div id="particles-js">
+    <div >
 
   
     <!-- Science Section -->
@@ -60,7 +60,7 @@
       <div class="projects-container">
         <div class="project-container project-card">
           <img
-            src="Assets/images/jpg.webp"
+            src="Assets/images/Computer-vision.webp"
             alt="expense-tracker"
             loading="lazy"
             class="project-pic"
@@ -108,6 +108,56 @@
       </div>
     </section>
     <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xpzbjvvr" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Social accounts - Fixed to the right -->
 
@@ -140,7 +190,7 @@
           }
         },
         "color": {
-          "value": "#ffffff"
+          "value": "#fff"
         },
         "shape": {
           "type": "circle",
@@ -180,7 +230,7 @@
         "line_linked": {
           "enable": false,
           "distance": 150,
-          "color": "#ffffff",
+          "color": "#fff",
           "opacity": 0.4,
           "width": 1
         },
